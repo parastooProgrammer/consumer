@@ -27,14 +27,4 @@ tasks.withType<Test> {
     useJUnitPlatform()
 }
 
-//    mavenCentral()
-//    maven {
-//        url = uri("https://maven.pkg.github.com/parastooProgrammer/customSpringBootStarter")
-//        credentials {
-////            username = project.findProperty("gpr.user") as String? ?: System.getenv("gprUser")
-////            password = project.findProperty("gpr.key") as String? ?: System.getenv("gprKey")
-//            username = "parastooProgrammer"
-//            password = "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"
-//
-//        }
-//    }
+

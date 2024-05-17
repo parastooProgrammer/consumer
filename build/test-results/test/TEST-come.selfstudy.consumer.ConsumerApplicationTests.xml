@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="come.selfstudy.consumer.ConsumerApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-05-17T13:39:29" hostname="PARASTOOLP" time="0.785">
+  <properties/>
+  <testcase name="contextLoads()" classname="come.selfstudy.consumer.ConsumerApplicationTests" time="0.785"/>
+  <system-out><![CDATA[09:39:28.382 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [come.selfstudy.consumer.ConsumerApplicationTests]: ConsumerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+09:39:28.460 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration come.selfstudy.consumer.ConsumerApplication for test class come.selfstudy.consumer.ConsumerApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2024-05-17T09:39:28.774-04:00  INFO 29720 --- [consumer] [    Test worker] c.s.consumer.ConsumerApplicationTests    : Starting ConsumerApplicationTests using Java 21.0.3 with PID 29720 (started by psaadat in G:\customStarter\consumer)
+2024-05-17T09:39:28.774-04:00  INFO 29720 --- [consumer] [    Test worker] c.s.consumer.ConsumerApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-05-17T09:39:29.143-04:00  INFO 29720 --- [consumer] [    Test worker] c.s.consumer.ConsumerApplicationTests    : Started ConsumerApplicationTests in 0.557 seconds (process running for 1.509)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\psaadat\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.13\979ce25f7d3096a2e82214ba7dc972a05ce7a171\byte-buddy-agent-1.14.13.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>

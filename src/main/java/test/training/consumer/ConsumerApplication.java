@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import java.util.Arrays;
 
 @SpringBootApplication
-@ComponentScan("come.*")
+//@ComponentScan("come.*")
 public class ConsumerApplication {
 
     public static void main(String[] args) {
